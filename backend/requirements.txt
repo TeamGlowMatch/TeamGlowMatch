@@ -1,0 +1,4 @@
+google-genai==2.14.0
+pandas==2.3.3
+pyodbc==5.3.0
+streamlit==1.60.0
