@@ -1,0 +1,211 @@
+Clinic_ID,Clinic_Name,City
+CLN_001,Cabinet Dermatologie Dr. DINESCU,Alba Iulia
+CLN_002,Dermamed Center Alba,Alba Iulia
+CLN_003,Clinica Medicala Sanatatea Alba,Alba Iulia
+CLN_004,MedCenter Alba Iulia,Alba Iulia
+CLN_005,Centru Medical Dr. BIRLE,Alba Iulia
+CLN_006,Dermatest Arad,Arad
+CLN_007,Cabinet Dr. GHITA‚,Arad
+CLN_008,Medici's Arad,Arad
+CLN_009,Estet Laser Arad,Arad
+CLN_010,Policlinica Dorobanti Arad,Arad
+CLN_011,Derma Center Pitesti,Pitesti
+CLN_012,Clinica Dr. ENE,Pitesti
+CLN_013,Medlife Pitesti,Pitesti
+CLN_014,Centrul Medical Muntenia,Pitesti
+CLN_015,Estetica Pitesti,Pitesti
+CLN_016,DermaLife Bacau,Bacau
+CLN_017,Clinica Dr. MATEI,Bacau
+CLN_018,Centru Medical Precizia,Bacau
+CLN_019,Euroclinic Bacau,Bacau
+CLN_020,Estetica Bacau,Bacau
+CLN_021,Oradea Derma Clinic,Oradea
+CLN_022,Clinica Dr. POPA,Oradea
+CLN_023,Medica Oradea,Oradea
+CLN_024,Bihor Medical Center,Oradea
+CLN_025,Skin Center Oradea,Oradea
+CLN_026,Cabinet Dermatologie Bistrita,Bistrita
+CLN_027,Dermacare Bistrita,Bistrita
+CLN_028,Clinica Sanovil,Bistrita
+CLN_029,Medicus Bistrita,Bistrita
+CLN_030,Estetic Clinique Bistrita,Bistrita
+CLN_031,Dermatology Botosani,Botosani
+CLN_032,Cabinet Dr. ILIE,Botosani
+CLN_033,Clinica Sf. Andrei Botosani,Botosani
+CLN_034,MedLife Botosani,Botosani
+CLN_035,Centru Medical Botosani,Botosani
+CLN_036,Brasov Derma Center,Brasov
+CLN_037,Clinica Dr. VINTILA‚,Brasov
+CLN_038,Medcenter Brasov,Brasov
+CLN_039,Hyperclinica MedLife Brasov,Brasov
+CLN_040,Aesthetics Brasov,Brasov
+CLN_041,Braila Derma Clinic,Braila
+CLN_042,Cabinet Dr. STOICA,Braila
+CLN_043,MedLife Braila,Braila
+CLN_044,Centru Medical Braila,Braila
+CLN_045,Estetic Braila,Braila
+CLN_046,Buzau Derma Care,Buzau
+CLN_047,Cabinet Dr. RADU,Buzau
+CLN_048,MedLife Buzau,Buzau
+CLN_049,Centru Medical Buzau,Buzau
+CLN_050,Estet Buzau,Buzau
+CLN_051,Resita Derma Clinic,Resita
+CLN_052,Cabinet Dr. LUPU,Resita
+CLN_053,MedLife Resita,Resita
+CLN_054,Centru Medical Caras,Resita
+CLN_055,Estet Resita,Resita
+CLN_056,Calarasi Derma Center,Calarasi
+CLN_057,Cabinet Dr. MARIN,Calarasi
+CLN_058,MedLife Calarasi,Calarasi
+CLN_059,Centru Medical Dunarea,Calarasi
+CLN_060,Estet Calarasi,Calarasi
+CLN_061,Cluj Derma Institute,Cluj-Napoca
+CLN_062,Transilvania Dermatology,Cluj-Napoca
+CLN_063,Medstar Cluj,Cluj-Napoca
+CLN_064,Regina Maria Cluj,Cluj-Napoca
+CLN_065,Derma Estetic Cluj,Cluj-Napoca
+CLN_066,Constanta Derma Clinic,Constanta
+CLN_067,Clinica Dr. CONSTANTINESCU,Constanta
+CLN_068,Ovidius Clinical Park,Constanta
+CLN_069,MedLife Constanta,Constanta
+CLN_070,Iowemed Constanta,Constanta
+CLN_071,Sf. Gheorghe Derma Care,Sfantu Gheorghe
+CLN_072,Cabinet Dr. KOVACS,Sfantu Gheorghe
+CLN_073,MedLife Covasna,Sfantu Gheorghe
+CLN_074,Centru Medical Covasna,Sfantu Gheorghe
+CLN_075,Estet Covasna,Sfantu Gheorghe
+CLN_076,Targoviste Derma Clinic,Targoviste
+CLN_077,Cabinet Dr. IONRESCU,Targoviste
+CLN_078,MedLife Targoviste,Targoviste
+CLN_079,Centru Medical Dambovita,Targoviste
+CLN_080,Estet Targoviste,Targoviste
+CLN_081,Craiova Derma Center,Craiova
+CLN_082,Clinica Dr. DUMITRESCU,Craiova
+CLN_083,MedLife Craiova,Craiova
+CLN_084,Regina Maria Craiova,Craiova
+CLN_085,Estetika Craiova,Craiova
+CLN_086,Galati Derma Clinic,Galati
+CLN_087,Clinica Dr. NICOLAE,Galati
+CLN_088,MedLife Galati,Galati
+CLN_089,Regina Maria Galati,Galati
+CLN_090,Centru Medical Dunarea Galati,Galati
+CLN_091,Giurgiu Derma Care,Giurgiu
+CLN_092,Cabinet Dr. TUDOR,Giurgiu
+CLN_093,MedLife Giurgiu,Giurgiu
+CLN_094,Centru Medical Giurgiu,Giurgiu
+CLN_095,Estet Giurgiu,Giurgiu
+CLN_096,Targu Jiu Derma Clinic,Targu Jiu
+CLN_097,Cabinet Dr. FLORESCU,Targu Jiu
+CLN_098,MedLife Targu Jiu,Targu Jiu
+CLN_099,Centru Medical Gorj,Targu Jiu
+CLN_100,Estet Targu Jiu,Targu Jiu
+CLN_101,Miercurea Ciuc Derma Care,Miercurea Ciuc
+CLN_102,Cabinet Dr. VARGA,Miercurea Ciuc
+CLN_103,MedLife Harghita,Miercurea Ciuc
+CLN_104,Centru Medical Harghita,Miercurea Ciuc
+CLN_105,Estet Harghita,Miercurea Ciuc
+CLN_106,Deva Derma Clinic,Deva
+CLN_107,Cabinet Dr. SIMION,Deva
+CLN_108,MedLife Deva,Deva
+CLN_109,Centru Medical Hunedoara,Deva
+CLN_110,Estet Deva,Deva
+CLN_111,Slobozia Derma Care,Slobozia
+CLN_112,Cabinet Dr. DUMITRU,Slobozia
+CLN_113,MedLife Ialomita,Slobozia
+CLN_114,Centru Medical Ialomita,Slobozia
+CLN_115,Estet Slobozia,Slobozia
+CLN_116,Iasi Derma Center,Iasi
+CLN_117,Clinica Dr. STURZA,Iasi
+CLN_118,MedLife Iasi,Iasi
+CLN_119,Arcadia Hospital Iasi,Iasi
+CLN_120,Dermestet Iasi,Iasi
+CLN_121,Buftea Derma Clinic,Buftea
+CLN_122,Cabinet Dr. NAE,Buftea
+CLN_123,MedLife Ilfov,Buftea
+CLN_124,Centru Medical Ilfov,Buftea
+CLN_125,Estet Buftea,Buftea
+CLN_126,Baia Mare Derma Care,Baia Mare
+CLN_127,Cabinet Dr. SZABO,Baia Mare
+CLN_128,MedLife Baia Mare,Baia Mare
+CLN_129,Centru Medical Maramures,Baia Mare
+CLN_130,Estet Baia Mare,Baia Mare
+CLN_131,Drobeta-Turnu Severin Derma,Drobeta-Turnu Severin
+CLN_132,Cabinet Dr. PETRESCU,Drobeta-Turnu Severin
+CLN_133,MedLife Mehedinti,Drobeta-Turnu Severin
+CLN_134,Centru Medical Severin,Drobeta-Turnu Severin
+CLN_135,Estet Severin,Drobeta-Turnu Severin
+CLN_136,Targu Mures Derma Center,Targu Mures
+CLN_137,Clinica Dr. MOLDOVAN,Targu Mures
+CLN_138,MedLife Targu Mures,Targu Mures
+CLN_139,Topderm Targu Mures,Targu Mures
+CLN_140,Centru Medical Mures,Targu Mures
+CLN_141,Piatra Neamt Derma Clinic,Piatra Neamt
+CLN_142,Cabinet Dr. CRISTEA,Piatra Neamt
+CLN_143,MedLife Piatra Neamt,Piatra Neamt
+CLN_144,Centru Medical Neamt,Piatra Neamt
+CLN_145,Estet Piatra Neamt,Piatra Neamt
+CLN_146,Slatina Derma Care,Slatina
+CLN_147,Cabinet Dr. PREDA,Slatina
+CLN_148,MedLife Slatina,Slatina
+CLN_149,Centru Medical Olt,Slatina
+CLN_150,Estet Slatina,Slatina
+CLN_151,Ploiesti Derma Center,Ploiesti
+CLN_152,Clinica Dr. CONSTANTIN,Ploiesti
+CLN_153,MedLife Ploiesti,Ploiesti
+CLN_154,Muntenia Medical Ploiesti,Ploiesti
+CLN_155,Estet Ploiesti,Ploiesti
+CLN_156,Satu Mare Derma Care,Satu Mare
+CLN_157,Cabinet Dr. KISS,Satu Mare
+CLN_158,MedLife Satu Mare,Satu Mare
+CLN_159,Centru Medical Satu Mare,Satu Mare
+CLN_160,Estet Satu Mare,Satu Mare
+CLN_161,Zalau Derma Clinic,Zalau
+CLN_162,Cabinet Dr. POP,Zalau
+CLN_163,MedLife Zalau,Zalau
+CLN_164,Centru Medical Salaj,Zalau
+CLN_165,Estet Zalau,Zalau
+CLN_166,Sibiu Derma Center,Sibiu
+CLN_167,Clinica Dr. WEBER,Sibiu
+CLN_168,MedLife Sibiu,Sibiu
+CLN_169,Polisano Sibiu,Sibiu
+CLN_170,Estet Sibiu,Sibiu
+CLN_171,Suceava Derma Clinic,Suceava
+CLN_172,Cabinet Dr. ROTARU,Suceava
+CLN_173,MedLife Suceava,Suceava
+CLN_174,Centru Medical Bucovina,Suceava
+CLN_175,Estet Suceava,Suceava
+CLN_176,Alexandria Derma Care,Alexandria
+CLN_177,Cabinet Dr. RADULESCU,Alexandria
+CLN_178,MedLife Alexandria,Alexandria
+CLN_179,Centru Medical Teleorman,Alexandria
+CLN_180,Estet Alexandria,Alexandria
+CLN_181,Timisoara Derma Center,Timisoara
+CLN_182,Clinica Dr. BADEA,Timisoara
+CLN_183,MedLife Timisoara,Timisoara
+CLN_184,Reina Timisoara,Timisoara
+CLN_185,Derma Estetic Timisoara,Timisoara
+CLN_186,Tulcea Derma Care,Tulcea
+CLN_187,Cabinet Dr. ALBU,Tulcea
+CLN_188,MedLife Tulcea,Tulcea
+CLN_189,Centru Medical Delta,Tulcea
+CLN_190,Estet Tulcea,Tulcea
+CLN_191,Vaslui Derma Clinic,Vaslui
+CLN_192,Cabinet Dr. MANEA,Vaslui
+CLN_193,MedLife Vaslui,Vaslui
+CLN_194,Centru Medical Vaslui,Vaslui
+CLN_195,Estet Vaslui,Vaslui
+CLN_196,Ramnicu Valcea Derma Center,Ramnicu Valcea
+CLN_197,Cabinet Dr. DIACONU,Ramnicu Valcea
+CLN_198,MedLife Valcea,Ramnicu Valcea
+CLN_199,Centru Medical Valcea,Ramnicu Valcea
+CLN_200,Estet Valcea,Ramnicu Valcea
+CLN_201,Focsani Derma Care,Focsani
+CLN_202,Cabinet Dr. STAN,Focsani
+CLN_203,MedLife Focsani,Focsani
+CLN_204,Centru Medical Vrancea,Focsani
+CLN_205,Estet Focsani,Focsani
+CLN_206,Bucuresti Derma Center,Bucuresti
+CLN_207,Dr. Leventer Centre,Bucuresti
+CLN_208,Derma360,Bucuresti
+CLN_209,MedLife Grivita,Bucuresti
+CLN_210,Regina Maria Central,Bucuresti

@@ -1,0 +1,151 @@
+Ingredient_Id,Ingredient_Name,Main_Role,Hydration_Level,Is_Active_Ingredient
+ING_0001,Glycerin,Humectant / Hydration,High,0
+ING_0002,Urea,Keratolytic / Deep Hydration,High,1
+ING_0003,Allantoin,Soothing & Regeneration,Medium,0
+ING_0004,Salicylic Acid,BHA Exfoliation / Anti-Acne,Low,1
+ING_0005,Lactic Acid,AHA Exfoliation / Hydration,Medium,1
+ING_0006,Glycolic Acid,AHA Exfoliation / Texture,Low,1
+ING_0007,Niacinamide,Sebum Control / Skin Barrier,Medium,1
+ING_0008,Retinol,Anti-Aging / Cellular Regeneration,Low,1
+ING_0009,Ceramide NP,Skin Barrier Repair,High,1
+ING_0010,Sodium Hyaluronate,Intense Hydration,High,1
+ING_0011,Panthenol,Soothing / Pro-Vitamin B5,High,0
+ING_0012,Tocopherol,Antioxidant / Vitamin E,Medium,0
+ING_0013,Squalane,Emollient / Moisture Lock,High,0
+ING_0014,Caffeine,Microcirculation / Anti-Puffiness,Low,1
+ING_0015,Kojic Acid,Depigmentation / Brightening,Low,1
+ING_0016,Azelaic Acid,Anti-Redness / Anti-Acne,Low,1
+ING_0017,Benzoyl Peroxide,Antimicrobial Acne Treatment,Low,1
+ING_0018,Tretinoin,Medical Retinoid Treatment,Low,1
+ING_0019,Centella Asiatica Extract,Soothing & Tissue Repair,Medium,1
+ING_0020,Melaleuca Alternifolia Leaf Oil,Purifying / Tea Tree,Low,1
+ING_0021,Ascorbic Acid,Antioxidant / Pure Vitamin C,Low,1
+ING_0022,Butyrospermum Parkii Butter,Emollient / Shea Butter,High,0
+ING_0023,Zinc PCA,Sebum Regulation / Sebo-Regulator,Low,1
+ING_0024,Gluconolactone,Gentle PHA Exfoliation,Medium,1
+ING_0025,Mandelic Acid,AHA Exfoliation for Sensitive Skin,Medium,1
+ING_0026,Aloe Barbadensis Leaf Juice,Soothing & Hydration,High,0
+ING_0027,Simmondsia Chinensis Seed Oil,Emollient / Jojoba Oil,High,0
+ING_0028,Camellia Sinensis Leaf Extract,Antioxidant / Green Tea Extract,Medium,1
+ING_0029,Glycyrrhiza Glabra Root Extract,Depigmentation / Licorice Root,Medium,1
+ING_0030,Alpha-Arbutin,Depigmentation / Skin Tone Evening,Low,1
+ING_0031,Tranexamic Acid,Hyperpigmentation Depigmentation,Low,1
+ING_0032,Bakuchiol,Anti-Aging / Retinol Alternative,Medium,1
+ING_0033,Glutathione,Antioxidant / Brightening,Medium,1
+ING_0034,Madecassoside,Barrier Repair / Centella,Medium,1
+ING_0035,Asiaticoside,Soothing & Regeneration,Medium,1
+ING_0036,Adenosine,Anti-Wrinkle / Elasticity,Medium,1
+ING_0037,Ubiquinone,Antioxidant / Coenzyme Q10,Medium,1
+ING_0038,Sodium PCA,Natural Moisturizing Factor,High,0
+ING_0039,Lactobionic Acid,Gentle PHA Exfoliation,Medium,1
+ING_0040,Zinc Oxide,Physical UV Protection / Soothing,Low,1
+ING_0041,Titanium Dioxide,Mineral UV Filter,Low,0
+ING_0042,Ferulic Acid,Antioxidant / Vitamin C Booster,Low,1
+ING_0043,Ceramide AP,Skin Barrier Repair,High,1
+ING_0044,Ceramide EOP,Skin Barrier Protection,High,1
+ING_0045,Snail Secretion Filtrate,Regeneration & Hydration,High,1
+ING_0046,Kaolin,Sebum Absorption / Clay,Low,0
+ING_0047,Menthol,Cooling Sensation / Purifying,Low,0
+ING_0048,Colloidal Silver,Purifying / Anti-Bacterial,Low,1
+ING_0049,Eucalyptus Globulus Leaf Oil,Antiseptic / Purifying,Low,1
+ING_0050,Rosa Canina Fruit Oil,Emollient / Rosehip Oil,High,0
+ING_0051,Retinyl Palmitate,Anti-Aging / Vitamin A Ester,Low,1
+ING_0052,Sodium Ascorbyl Phosphate,Antioxidant / Vitamin C Derivative,Medium,1
+ING_0053,Magnesium Ascorbyl Phosphate,Antioxidant / Vitamin C Derivative,Medium,1
+ING_0054,Ascorbyl Palmitate,Antioxidant / Fat-Soluble Vitamin C,Medium,1
+ING_0055,Tocopheryl Acetate,Antioxidant / Vitamin E Derivative,Medium,0
+ING_0056,Sodium Hyaluronate Crosspolymer,Multi-Layer Deep Hydration,High,1
+ING_0057,Hydrolyzed Hyaluronic Acid,Micromolecular Hydration,High,1
+ING_0058,Ceramide NS,Skin Barrier Repair,High,1
+ING_0059,Ceramide EOS,Skin Barrier Protection,High,1
+ING_0060,Ceramide AS,Skin Barrier & Protection,High,1
+ING_0061,Phytosphingosine,Anti-Acne / Skin Barrier,Medium,1
+ING_0062,Cholesterol,Barrier Lipid Repair,High,0
+ING_0063,Arbutin,Depigmentation / Brightening,Low,1
+ING_0064,Lactobionic Acid,Gentle PHA Exfoliant,Medium,1
+ING_0065,Gluconic Acid,Gentle PHA Exfoliation,Medium,1
+ING_0066,Shikimic Acid,Gentle Exfoliation & Anti-Bacterial,Low,1
+ING_0067,Pyruvic Acid,Alpha-Ketoacid Exfoliation / Sebum,Low,1
+ING_0068,Tartaric Acid,AHA Exfoliation / pH Regulation,Low,1
+ING_0069,Malic Acid,AHA Exfoliation / Radiance Restoring,Medium,1
+ING_0070,Colloidal Gold,Collagen Stimulation / Elasticity,Medium,1
+ING_0071,Copper Tripeptide-1,Tissue Regeneration / Peptide,Medium,1
+ING_0072,Palmitoyl Tripeptide-1,Collagen Stimulation / Anti-Aging,Medium,1
+ING_0073,Palmitoyl Tetrapeptide-7,Anti-Inflammatory / Anti-Aging,Medium,1
+ING_0074,Palmitoyl Tripeptide-38,Wrinkle Smoothing / Anti-Aging,Medium,1
+ING_0075,Acetyl Hexapeptide-8,BOTOX-like Effect / Wrinkle Smoothing,Medium,1
+ING_0076,Madecassic Acid,Soothing & Repair / Centella,Medium,1
+ING_0077,Asiatic Acid,Irritated Skin Soothing / Centella,Medium,1
+ING_0078,Hamamelis Virginiana Water,Astringent / Sebum Control,Low,1
+ING_0079,Rosmarinus Officinalis Leaf Oil,Purifying / Rosemary Extract,Low,1
+ING_0080,Propolis Extract,Soothing & Antimicrobial,Medium,1
+ING_0081,Royal Jelly Extract,Nourishment & Vitality,High,1
+ING_0082,Honey Extract,Humectant / Antibacterial Properties,High,1
+ING_0083,Bifida Ferment Lysate,Probiotics / Skin Barrier Repair,Medium,1
+ING_0084,Galactomyces Ferment Filtrate,Brightening & Sebum Control,Medium,1
+ING_0085,Lactobacillus Ferment,Microbiome Balancing,Medium,1
+ING_0086,Argania Spinosa Kernel Oil,Emollient / Argan Oil,High,0
+ING_0087,Persea Gratissima Oil,Emollient / Avocado Oil,High,0
+ING_0088,Prunus Amygdalus Dulcis Oil,Emollient / Sweet Almond Oil,High,0
+ING_0089,Vitis Vinifera Seed Oil,Emollient / Grape Seed Oil,High,0
+ING_0090,Helianthus Annuus Seed Oil,Emollient / Sunflower Seed Oil,High,0
+ING_0091,Olea Europaea Fruit Oil,Emollient / Olive Oil,High,0
+ING_0092,Cocos Nucifera Oil,Emollient / Coconut Oil,High,0
+ING_0093,Theobroma Cacao Seed Butter,Emollient / Cocoa Butter,High,0
+ING_0094,Squalene,Lipid Antioxidant / Emollient,High,0
+ING_0095,Beta-Glucan,Soothing & Deep Hydration,High,1
+ING_0096,Bisabolol,Sensitive Skin Soothing,Medium,1
+ING_0097,Calendula Officinalis Flower Extract,Soothing & Healing,Medium,1
+ING_0098,Chamomilla Recutita Flower Extract,Soothing & Anti-Inflammatory,Medium,1
+ING_0099,Cucumis Sativus Fruit Extract,Soothing & Refreshing / Cucumber,High,0
+ING_0100,Salix Alba Bark Extract,Natural BHA Exfoliant / Willow Bark,Low,1
+ING_0101,Carica Papaya Fruit Extract,Gentle Enzymatic Exfoliation,Medium,1
+ING_0102,Papain,Proteolytic Enzymatic Exfoliant,Low,1
+ING_0103,Bromelain,Soothing Enzymatic Exfoliant,Medium,1
+ING_0104,Zinc Gluconate,Purifying / Sebo-Regulator,Low,1
+ING_0105,Copper Gluconate,Tissue Regeneration,Medium,1
+ING_0106,Carnitine,Cellular Energizing / Sebum Control,Low,1
+ING_0107,Creatine,Cellular Protection & Anti-Aging,Medium,1
+ING_0108,Ectoin,Pollution Protection & Hydration,High,1
+ING_0109,Trehalose,Dehydration Protection / Plant Sugar,High,0
+ING_0110,Betaine,Osmo-Regulator / Gentle Hydration,High,0
+ING_0111,Inulin,Prebiotic / Microbiome Support,Medium,0
+ING_0112,Alpha-Glucan Oligosaccharide,Prebiotic / Skin Balance,Medium,0
+ING_0113,Retinyl Propionate,Anti-Aging / Gentle Retinoid,Low,1
+ING_0114,3-O-Ethyl Ascorbic Acid,Stable Antioxidant / Vitamin C Derivative,Medium,1
+ING_0115,Ascorbyl Tetraisopalmitate,Lipophilic Antioxidant / Vitamin C,Medium,1
+ING_0116,Niacin,Pure Vitamin B3 / Microcirculation,Low,1
+ING_0117,Biotin,Vitamin B7 / Skin Barrier Health,Medium,0
+ING_0118,Folic Acid,Vitamin B9 / Cellular Regeneration,Medium,1
+ING_0119,Pyridoxine Hcl,Vitamin B6 / Sebum Regulation,Low,1
+ING_0120,Thiamine Hcl,Vitamin B1 / Revitalizing,Medium,0
+ING_0121,Cyanocobalamin,Vitamin B12 / Redness Soothing,Medium,1
+ING_0122,Hydrolyzed Collagen,Elasticity & Surface Hydration,High,1
+ING_0123,Soluble Collagen,Protective Hydrating Film,High,0
+ING_0124,Hydrolyzed Elastin,Firmness & Elasticity,High,1
+ING_0125,Hydrolyzed Silk,Silky Protein / Smoothing,High,0
+ING_0126,Hydrolyzed Keratin,Fortifying & Skin Protection,Medium,0
+ING_0127,Hydrolyzed Wheat Protein,Gentle Protein Hydration,High,0
+ING_0128,Hydrolyzed Soy Protein,Protein Nourishment & Firmness,High,0
+ING_0129,Arginine,Amino Acid / Skin Repair,Medium,1
+ING_0130,Glycine,Amino Acid / Collagen Production,Medium,0
+ING_0131,Proline,Amino Acid / Skin Structure,Medium,0
+ING_0132,Serine,Amino Acid / Natural Moisturizing Factor,High,0
+ING_0133,Valine,Amino Acid / Tissue Reconstruction,Medium,0
+ING_0134,Lysine Hcl,Amino Acid / Tissue Repair,Medium,0
+ING_0135,Histidine Hcl,Amino Acid / Soothing & Antioxidant,Medium,0
+ING_0136,Glutamic Acid,Amino Acid / Moisture Retention,High,0
+ING_0137,Aspartic Acid,Amino Acid / Skin Regeneration,Medium,0
+ING_0138,Alanine,Amino Acid / Texture Smoothing,Medium,0
+ING_0139,Threonine,Amino Acid / Elastin Synthesis,Medium,0
+ING_0140,Phenylalanine,Amino Acid / Even Pigmentation,Medium,0
+ING_0141,Isoleucine,Amino Acid / Barrier Repair,Medium,0
+ING_0142,Capryloyl Salicylic Acid,Micro-Targeted LHA Exfoliation,Low,1
+ING_0143,Zinc Ricinoleate,Odor & Sebum Absorber,Low,0
+ING_0144,Zinc Pyrithione,Anti-Dandruff & Antimicrobial,Low,1
+ING_0145,Piroctone Olamine,Antifungal & Purifying,Low,1
+ING_0146,Climbazole,Antimicrobial Anti-Dandruff,Low,1
+ING_0147,Charcoal Powder,Impurity Absorber & Detox,Low,0
+ING_0148,Pumice,Mechanical Exfoliation / Scrub,Low,0
+ING_0149,Avena Sativa Kernel Flour,Deep Soothing / Colloidal Oatmeal,High,1
+ING_0150,Avena Sativa Kernel Oil,Soothing Emollient / Oat Oil,High,0
