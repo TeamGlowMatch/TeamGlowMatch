@@ -1,19 +1,15 @@
 import streamlit as st
-import pyodbc
-from google import genai
-from db import run_query
 
-st.set_page_config(page_title="GlowMatch", layout="wide")
-st.title("Hello")
+# Declared pages
+home_page = st.Page("pages/dashboard.py", title="Dashboard", icon="🏠", default=True)
+ai_page = st.Page("pages/genAi_page.py", title="AI Assistant", icon="🤖")
 
-if st.button("Test Azure SQL Connection"):
-    # Run a simple built-in SQL query to test connectivity
-    test_df = run_query("SELECT * FROM Products")
-    
-    if not test_df.empty:
-        st.success("Connected to Azure SQL successfully!")
-        st.dataframe(test_df)
+# Register navigation
+pg = st.navigation([home_page, ai_page])
 
+# Shared sidebar elements (runs on every page)
+with st.sidebar:
+    st.write("GlowMatch")
 
-
-
+# Render active page content
+pg.run()
