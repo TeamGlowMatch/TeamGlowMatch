@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 from db import run_query
 
-st.title("🏠 GlowMatch: Clinical Skincare Portal")
-st.write("Explore dermatological data, track patient usage logs, and run real-time SQL analytics.")
+st.title("GlowMatch: Clinical Skincare Portal")
+st.write("Explore dermatological data, track patient usage logs, and run real-time analytics.")
 st.divider()
 
 # Create structured tabs for the demo
@@ -14,10 +14,10 @@ tab_sql, tab_logs, tab_explorer = st.tabs([
 ])
 
 # =====================================================================
-# TAB 1: THE 5 MANDATORY SQL QUERIES (HACKATHON REQUIREMENT)
+# TAB 1: THE 5 MANDATORY SQL QUERIES 
 # =====================================================================
 with tab_sql:
-    st.header("Hackathon Requirement: Live SQL Query Execution")
+    st.header(" Live SQL Query Execution", text_alignment="center")
     st.write("Click any button below to execute the query in real-time against Azure SQL and view the raw syntax.")
     
     # --- WHERE QUERY 1 ---
@@ -27,7 +27,7 @@ FROM dbo.Products
 WHERE Type='Serum';"""
     st.code(sql_where_1, language="sql")
     if st.button("Run WHERE Query #1"):
-        st.dataframe(run_query(sql_where_1), use_container_width=True)
+        st.dataframe(run_query(sql_where_1))
     st.divider()
     
     # --- WHERE QUERY 2 ---
@@ -37,7 +37,7 @@ FROM dbo.Brands
 WHERE Popularity_Score>95;"""
     st.code(sql_where_2, language="sql")
     if st.button("Run WHERE Query #2"):
-        st.dataframe(run_query(sql_where_2), use_container_width=True)
+        st.dataframe(run_query(sql_where_2))
     st.divider()
     
     # --- WHERE QUERY 3 ---
@@ -47,7 +47,7 @@ FROM dbo.Ingredients
 WHERE Is_Active_Ingredient=1;"""
     st.code(sql_where_3, language="sql")
     if st.button("Run WHERE Query #3"):
-        st.dataframe(run_query(sql_where_3), use_container_width=True)
+        st.dataframe(run_query(sql_where_3))
     st.divider()
     
     # --- HAVING QUERY 1 ---
@@ -58,7 +58,7 @@ GROUP BY Country
 HAVING COUNT(Brand_ID)>=2;"""
     st.code(sql_having_1, language="sql")
     if st.button("Run HAVING Query #1"):
-        st.dataframe(run_query(sql_having_1), use_container_width=True)
+        st.dataframe(run_query(sql_having_1))
     st.divider()
     
     # --- HAVING QUERY 2 ---
@@ -69,7 +69,7 @@ GROUP BY Main_Role
 HAVING COUNT(Ingredient_Id)>=2;"""
     st.code(sql_having_2, language="sql")
     if st.button("Run HAVING Query #2"):
-        st.dataframe(run_query(sql_having_2), use_container_width=True)
+        st.dataframe(run_query(sql_having_2))
 
 # =====================================================================
 # TAB 2: PATIENT SKINCARE LOGS & DOCTOR APPROVALS
@@ -92,7 +92,7 @@ with tab_logs:
             # In production, this runs: INSERT INTO UserLogs (PatientName, ProductUsed, Reaction, Status) VALUES (...)
             st.success("✅ Log submitted successfully! Current Status: **Pending Doctor Approval**.")
             
-    st.subheader("Doctor-Approved Patient Case Studies")
+    st.subheader("✅ Doctor-Approved Patient Case Studies")
     # Mocking approved table display for the POC demo if a UserLogs table doesn't exist yet
     mock_logs = pd.DataFrame({
         "Patient": ["Alex M.", "Elena R."],
@@ -100,7 +100,40 @@ with tab_logs:
         "Skin Reaction": ["Reduced redness and improved texture after 7 days.", "Mild initial dryness, followed by clearer skin."],
         "Status": ["Approved by Dr. Popescu", "Approved by Dr. Ionescu"]
     })
-    st.dataframe(mock_logs, use_container_width=True)
+    st.dataframe(mock_logs)
+    st.divider()
+
+
+    sql_clinics = "SELECT Clinic_Name AS Clinics, City FROM Clinics"
+    st.subheader("🏥 Find a Verified Clinic Near You")
+    st.write("Match your skincare log with a local dermatological clinic for physical consultation.")
+
+    # 1. Fetch distinct cities dynamically from your Azure SQL table
+    cities_df = run_query("SELECT DISTINCT City FROM dbo.Clinics WHERE City IS NOT NULL;")
+
+    if not cities_df.empty:
+        # Convert the dataframe column to a Python list and prepend an "All Cities" option
+        city_list = ["All Cities"] + cities_df["City"].tolist()
+        
+        # 2. User Input: City Dropdown
+        selected_city = st.selectbox("Select Your City to Filter Clinics:", city_list)
+        
+        # 3. Query the database based on the user's selection
+        if selected_city == "All Cities":
+            clinics_query = "SELECT Clinic_Name AS Clinics, City FROM dbo.Clinics;"
+            clinics_df = run_query(clinics_query)
+        else:
+            # Using a parameterized query (?) to safely filter by the chosen city
+            clinics_query = "SELECT Clinic_Name AS Clinics, City FROM dbo.Clinics WHERE City = ?;"
+            clinics_df = run_query(clinics_query, (selected_city,))
+            
+        # 4. Display the filtered results
+        if not clinics_df.empty:
+            st.dataframe(clinics_df)
+        else:
+            st.info(f"No clinics found registered in {selected_city}.")
+    else:
+        st.warning("⚠️ Could not load cities. Please verify that 'dbo.Clinics' is the correct table name.")
 
 # =====================================================================
 # TAB 3: DATABASE EXPLORER
@@ -112,6 +145,6 @@ with tab_explorer:
     if st.button(f"Load {selected_table}"):
         df_table = run_query(f"SELECT * FROM {selected_table};")
         if not df_table.empty:
-            st.dataframe(df_table, use_container_width=True)
+            st.dataframe(df_table)
         else:
             st.warning("Table is empty or could not be loaded.")
