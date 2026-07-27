@@ -26,6 +26,13 @@ CREATE TABLE Products (
 );
 
 
+CREATE TABLE Clinics (
+    Clinic_ID NVARCHAR(50) NOT NULL PRIMARY KEY,
+    Clinic_Name NVARCHAR(255) NOT NULL,
+    City NVARCHAR(100) NOT NULL
+);
+
+
 CREATE TABLE Product_Ingredients (
     Link_Id VARCHAR(50) NOT NULL PRIMARY KEY,
     Product_Id VARCHAR(50),
@@ -34,9 +41,13 @@ CREATE TABLE Product_Ingredients (
     FOREIGN KEY (Ingredient_Id) REFERENCES Ingredients(Ingredient_Id)
 );
 
-CREATE TABLE Clinics (
-    Clinic_ID NVARCHAR(50) NOT NULL PRIMARY KEY,
-    Clinic_Name NVARCHAR(255) NOT NULL,
-    City NVARCHAR(100) NOT NULL
-);
+INSERT INTO Product_Ingredients (Link_Id, Product_Id, Ingredient_Id)
+SELECT 
+    'LNK_' + CAST(ROW_NUMBER() OVER (ORDER BY p.Product_Id, i.Ingredient_Id) AS VARCHAR(50)),
+    p.Product_Id,
+    i.Ingredient_Id
+FROM Products p
+CROSS APPLY STRING_SPLIT(p.Ingredients, ',') s
+JOIN Ingredients i ON LTRIM(RTRIM(s.value)) = i.Ingredient_Name;
+
 
