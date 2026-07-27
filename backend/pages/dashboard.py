@@ -26,17 +26,17 @@ with tab_sql:
 FROM dbo.Products
 WHERE Type='Serum';"""
     st.code(sql_where_1, language="sql")
-    if st.button("Run WHERE Query #1"):
+    if st.button("Run Query #1"):
         st.dataframe(run_query(sql_where_1))
     st.divider()
     
     # --- WHERE QUERY 2 ---
-    st.subheader("2. High Popularity Brands (>95)")
+    st.subheader("2. High Popularity Brands (>90)")
     sql_where_2 = """SELECT Brand_Name,Popularity_Score,Country
 FROM dbo.Brands
-WHERE Popularity_Score>95;"""
+WHERE Popularity_Score>90;"""
     st.code(sql_where_2, language="sql")
-    if st.button("Run WHERE Query #2"):
+    if st.button("Run Query #2"):
         st.dataframe(run_query(sql_where_2))
     st.divider()
     
@@ -46,18 +46,19 @@ WHERE Popularity_Score>95;"""
 FROM dbo.Ingredients
 WHERE Is_Active_Ingredient=1;"""
     st.code(sql_where_3, language="sql")
-    if st.button("Run WHERE Query #3"):
+    if st.button("Run Query #3"):
         st.dataframe(run_query(sql_where_3))
     st.divider()
     
     # --- HAVING QUERY 1 ---
     st.subheader("4. Countries with Multiple Brands (≥2)")
-    sql_having_1 = """SELECT Country,COUNT(Brand_ID) AS Numar_Branduri
-FROM dbo.Brands
+    sql_having_1 = """SELECT Country,COUNT(Brand) AS Numar_Branduri
+FROM dbo.Products
 GROUP BY Country
-HAVING COUNT(Brand_ID)>=2;"""
+HAVING COUNT(Brand)>=2
+ORDER BY Numar_Branduri DESC"""
     st.code(sql_having_1, language="sql")
-    if st.button("Run HAVING Query #1"):
+    if st.button("Run Query #4"):
         st.dataframe(run_query(sql_having_1))
     st.divider()
     
@@ -68,7 +69,7 @@ FROM dbo.Ingredients
 GROUP BY Main_Role
 HAVING COUNT(Ingredient_Id)>=2;"""
     st.code(sql_having_2, language="sql")
-    if st.button("Run HAVING Query #2"):
+    if st.button("Run Query #5"):
         st.dataframe(run_query(sql_having_2))
 
 # =====================================================================
